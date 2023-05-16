@@ -2,6 +2,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 const generateMarkdown = require("./utils/generateMarkdown")
+
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -26,7 +27,7 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'List the contributors, if any',
+    message: 'List the contributors, if any :',
     name: 'contribution', 
   },
   {
@@ -44,30 +45,32 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'Enter you GitHub Username',
+    message: 'Enter you GitHub Username :',
     name: 'github', 
   },
   {
     type: 'input',
-    message: 'Enter your email',
+    message: 'Enter your email :',
     name: 'email', 
   },
 ];
   
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  let myReadMe = generateMarkdown(data)
-  fs.writeFile(fileName, myReadMe, (err) =>
+  // let myReadMe = generateMarkdown(data)
+  fs.writeFile(fileName, data, 'utf8', (err) =>
     err ? console.error(err) : console.log('Success')
   );
 }
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions)
+  inquirer
+  .prompt(questions)
   .then((answers) => {
-    console.log(answers)
-    writeToFile('README.md', answers)
+    // console.log(answers)
+    const myReadMe = generateMarkdown(answers)
+    writeToFile('README.md', myReadMe);
   })
   .catch((error) => {
     if (error.isTtyError){
