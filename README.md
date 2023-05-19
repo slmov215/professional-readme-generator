@@ -25,8 +25,12 @@
 
   ## Usage
 
-  Simply answer to the set of prompts.
+  Simply answer the set of prompts.
 
+  https://drive.google.com/file/d/1D42JMMfLoSqGgfAQPsMCpIJeghLIAfdS/view?usp=sharing
+
+  View the link bellow if the video above does not play.
+  [View Demo Video](https://drive.google.com/file/d/1D42JMMfLoSqGgfAQPsMCpIJeghLIAfdS/view?usp=sharing)
 
   ## License 
   
