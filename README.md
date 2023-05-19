@@ -15,12 +15,13 @@
 
   ## Installation
 
-  To install, run the command :
+  This application requires the user to download node.js v16+ and inquire v8.2.4 
+
+  To install inquire, run the command in the terminal :
 
   ```
-  npm i
+  npm i inquirer@8.2.4
   ```
-  This application requires the user to have node.js v16+ and inquire v8.2.4 
 
   ## Usage
 

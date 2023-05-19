@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
@@ -12,11 +12,11 @@ function renderLicenseBadge(license) {
   } else if (license === "Common-Development-and Distribution") {
     return "![License](https://img.shields.io/badge/License-CDDL%201.0-blue.svg)";
   } else {
-    return ""; //"[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]" ;
+    return ""; 
   }
 }
 
-// TODO: Create a function that returns the license link
+// Function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT") {
@@ -30,11 +30,11 @@ function renderLicenseLink(license) {
   } else if (license === "Common-Development-and Distribution") {
     return "[License](https://opensource.org/license/cddl-1-0)";
   } else {
-    return ""; //"[License](http://unlicense.org/)";
+    return ""; 
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// TODO: Function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
@@ -51,7 +51,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// TODO: Function that generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -72,7 +72,7 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  To install, run the command :
+  To install,
 
   \`\`\`
   ${data.installation}
