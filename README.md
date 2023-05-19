@@ -1,8 +1,8 @@
 # ReadMe Generator
-
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
 
-  Professionally generates a ReadME
+  This application was created to help generates a professional ReadME when the user replies to a set of prompts.
 
   ## Table of Contents
     * [Installation](#installation)
@@ -12,7 +12,6 @@
     * [Testing](#testing)
     * [Questions](#questions)
 
-  <a name="installation"/>
 
   ## Installation
 
@@ -21,39 +20,33 @@
   ```
   npm i
   ```
-
-  <a name="usage"/>
+  This application requires the user to have node.js v16+ and inquire v8.2.4 
 
   ## Usage
 
-  please read the readme
+  Simply answer to the set of prompts.
 
-  <a name="license"/>
 
   ## License 
-      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-      [License](https://opensource.org/licenses/MIT) 
+  
+   Copyright @ MIT. All rights reserved.
 
-  <a name="Contributing"/>
+   Licensed under the MIT [License](https://opensource.org/licenses/MIT) 
+
 
   ## Contributing
 
   n/a
-
-  <a name="testing"/>
 
   ## Testing
 
   To run tests, run these commands:
 
   ```
-  npm test
+  n/a
   ```
 
-
-  <a name="questions"/>
-
-  ## Questions
+  ### Questions
 
   [Review my other projects on GitHub.](https://www.github.com/slmov215)
 

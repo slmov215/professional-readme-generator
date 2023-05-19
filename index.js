@@ -70,7 +70,7 @@ function init() {
   .then((answers) => {
     // console.log(answers)
     const myReadMe = generateMarkdown(answers)
-    writeToFile('README.md', myReadMe);
+    writeToFile('./demo/readme.md', myReadMe);
   })
   .catch((error) => {
     if (error.isTtyError){

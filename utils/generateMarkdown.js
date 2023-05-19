@@ -2,15 +2,15 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+    return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
   } else if (license === "Apache") {
-    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+    return "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
   } else if (license === "Mozilla-Public") {
-    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]";
+    return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
   } else if (license === "GNU-General-Public") {
-    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
+    return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
   } else if (license === "Common-Development-and Distribution") {
-    return "[![License](https://img.shields.io/badge/License-CDDL%201.0-blue.svg)]";
+    return "![License](https://img.shields.io/badge/License-CDDL%201.0-blue.svg)";
   } else {
     return ""; //"[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]" ;
   }
@@ -38,9 +38,13 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `## License 
-      ${renderLicenseBadge(license)}
-      ${renderLicenseLink(license)} `;
+    return (
+   `## License 
+
+   Copyright @ ${license}. All rights reserved.
+
+   Licensed under the ${license} `
+   );
   } 
   else {
     return ''
@@ -51,19 +55,20 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
   ## Description
 
   ${data.description}
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Testing](#testing)
-    * [Questions](#questions)
-
-  <a name="installation"/>
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [Questions](#questions)
+  * ${renderLicenseLink(data.license)}  
 
   ## Installation
 
@@ -73,23 +78,15 @@ function generateMarkdown(data) {
   ${data.installation}
   \`\`\`
 
-  <a name="usage"/>
-
   ## Usage
 
   ${data.usage}
 
-  <a name="license"/>
-
-  ${renderLicenseSection(data.license)}
-
-  <a name="Contributing"/>
+  ${renderLicenseSection(data.license)} ${renderLicenseLink(data.license)}
 
   ## Contributing
 
   ${data.contribution}
-
-  <a name="testing"/>
 
   ## Testing
 
@@ -99,10 +96,7 @@ function generateMarkdown(data) {
   ${data.test}
   \`\`\`
 
-
-  <a name="questions"/>
-
-  ## Questions
+  ### Questions
 
   [Review my other projects on GitHub.](https://www.github.com/${data.github})
 
