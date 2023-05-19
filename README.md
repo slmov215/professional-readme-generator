@@ -27,7 +27,7 @@
 
   Simply answer the set of prompts.
 
-  https://drive.google.com/file/d/1D42JMMfLoSqGgfAQPsMCpIJeghLIAfdS/view?usp=sharing
+  https://github.com/slmov215/professional-readme-generator/blob/main/demo/Untitled_%20May%2018%2C%202023%2010_36%20PM.webm
 
   View the link bellow if the video above does not play.
   [View Demo Video](https://drive.google.com/file/d/1D42JMMfLoSqGgfAQPsMCpIJeghLIAfdS/view?usp=sharing)
