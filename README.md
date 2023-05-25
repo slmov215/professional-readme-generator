@@ -1,8 +1,8 @@
 # ReadMe Generator
-
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
 
-  Professionally generates a ReadME
+  This application was created to help generates a professional ReadME when the user replies to a set of prompts.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,48 +12,48 @@
   * [Testing](#testing)
   * [Questions](#questions)
 
-  <a name="installation"/>
 
   ## Installation
 
-  To install, run the command :
+  This application requires the user to download node.js v16+ and inquire v8.2.4 
+
+  To install inquire, run the command in the terminal :
 
   ```
-  npm i
+  npm i inquirer@8.2.4
   ```
-
-  <a name="usage"/>
 
   ## Usage
 
-  please read the readme
+  Simply answer the set of prompts.
 
-  <a name="license"/>
+  ![Screen Capture](./demo/Screen-Capture-of-Code.gif)
+
+  ![Demo Video](./demo/Untitled_%20May%2018%2C%202023%2010_36%20PM.webm)
+
+  View the link below if the video above does not play.
+  [View Demo Video](https://drive.google.com/file/d/1D42JMMfLoSqGgfAQPsMCpIJeghLIAfdS/view?usp=sharing)
 
   ## License 
-      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-      [License](https://opensource.org/licenses/MIT) 
+  
+   Copyright @ MIT. All rights reserved.
 
-  <a name="Contributing"/>
+   Licensed under the MIT [License](https://opensource.org/licenses/MIT) 
+
 
   ## Contributing
 
   n/a
-
-  <a name="testing"/>
 
   ## Testing
 
   To run tests, run these commands:
 
   ```
-  npm test
+  n/a
   ```
 
-
-  <a name="questions"/>
-
-  ## Questions
+  ### Questions
 
   [Review my other projects on GitHub.](https://www.github.com/slmov215)
 
