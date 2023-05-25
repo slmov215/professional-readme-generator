@@ -2,15 +2,15 @@
 
   ## Description
 
-  Professionally generates a ReadME
+  This application will assist you in generating a professional readme by asking the user to reply to a set of prompts.
 
   ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Testing](#testing)
-  * [Questions](#questions)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Testing](#testing)
+    * [Questions](#questions)
 
   <a name="installation"/>
 
@@ -19,14 +19,14 @@
   To install, run the command :
 
   ```
-  npm i
+  In this application, you are required to have node.js v16+ and inquire v8.2.4.
   ```
 
   <a name="usage"/>
 
   ## Usage
 
-  please read the readme
+  Simplying answer and reply to the set of prompts.
 
   <a name="license"/>
 
@@ -38,7 +38,7 @@
 
   ## Contributing
 
-  n/a
+  N/A
 
   <a name="testing"/>
 
@@ -47,7 +47,7 @@
   To run tests, run these commands:
 
   ```
-  npm test
+  N/A
   ```
 
 
