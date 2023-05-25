@@ -1,60 +1,53 @@
-# ReadMe Generator
+
+  # Readme Gen
+
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
 
-  This application will assist you in generating a professional readme by asking the user to reply to a set of prompts.
+  
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Testing](#testing)
-    * [Questions](#questions)
-
-  <a name="installation"/>
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [Questions](#questions)
+  * [License](https://opensource.org/licenses/MIT)  
 
   ## Installation
 
-  To install, run the command :
+  To install,
 
   ```
-  In this application, you are required to have node.js v16+ and inquire v8.2.4.
+  
   ```
-
-  <a name="usage"/>
 
   ## Usage
 
-  Simplying answer and reply to the set of prompts.
-
-  <a name="license"/>
+  
 
   ## License 
-      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-      [License](https://opensource.org/licenses/MIT) 
 
-  <a name="Contributing"/>
+   Copyright @ MIT. All rights reserved.
+
+   Licensed under the MIT  [License](https://opensource.org/licenses/MIT)
 
   ## Contributing
 
-  N/A
-
-  <a name="testing"/>
+  
 
   ## Testing
 
   To run tests, run these commands:
 
   ```
-  N/A
+  
   ```
 
+  ### Questions
 
-  <a name="questions"/>
+  [Review my other projects on GitHub.](https://www.github.com/)
 
-  ## Questions
-
-  [Review my other projects on GitHub.](https://www.github.com/slmov215)
-
-  [Email me](mailto:slmov215@gmail.com) 
+  [Email me](mailto:) 
